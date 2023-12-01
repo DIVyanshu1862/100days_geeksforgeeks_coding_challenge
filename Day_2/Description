@@ -1,0 +1,10 @@
+Renamed variables for better readability (currZeros instead of currz, maxZeros instead of max_z).
+In the inner loop, it checks for zeros in each column (arr[j][i] == 0) and increments currZeros accordingly.
+Updated the comparison logic to track the column index (res) with the maximum number of zeros (maxZeros).
+This modified code should correctly identify the column index that contains the maximum number of zeros in the given square matrix.
+
+
+
+
+
+
