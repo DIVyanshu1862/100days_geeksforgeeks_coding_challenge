@@ -1,0 +1,8 @@
+Parameters: Takes a string pattern as input, representing the pattern of increase and decrease.
+Return Type: Returns a string that represents the minimum number based on the given pattern.
+n: Represents the length of the pattern string.
+result: An integer array of length n to store the resulting number sequence.
+Initializes the result array with a sequence of numbers from 1 to n (inclusive), assuming an ascending sequence as the initial sequence.
+Iterates through the pattern string to identify 'D' (decrease) segments.
+When 'D' is found, it identifies the start and end indices of the decreasing section.
+Calls the reverse method to reverse the section of the result array corresponding to the 'D' pattern.
