@@ -1,0 +1,4 @@
+X and Y are the input strings.
+m and n are the lengths of strings X and Y, respectively.
+The function returns an integer representing the length of the shortest common supersequence.
+int[][] scs = new int[m + 1][n + 1];: Creates a 2D array to store the lengths of supersequences. scs[i][j] will hold the length of the SCS for substrings of X of length i and Y of length j.
