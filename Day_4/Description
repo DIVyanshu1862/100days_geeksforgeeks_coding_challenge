@@ -1,0 +1,4 @@
+The method areIsomorphic takes in two strings, str1 and str2.
+It first checks if the lengths of the two strings are different. If they are, it immediately returns false since isomorphic strings must have equal lengths.
+The method initializes a HashMap called mapping to store the mappings between characters of str1 and str2. It also initializes a HashSet called visited to keep track of characters in str2 that have already been mapped.
+It iterates through both strings using a for loop.
