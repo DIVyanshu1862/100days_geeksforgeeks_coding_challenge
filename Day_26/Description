@@ -1,0 +1,5 @@
+If the ArrayList contains the current element from a2[], it removes that element from the ArrayList.
+If the element is not found in the ArrayList, it means the second array contains an element not present in the first array, and the method returns "No" immediately, indicating that a2[] is not a subset of a1[].
+This code assumes unique elements within the arrays. If there are duplicate elements in either array, this method might not work correctly as it removes the first occurrence of an element found in the ArrayList.
+"Yes" if a2[] is a subset of a1[].
+"No" if a2[] is not a subset of a1[].
