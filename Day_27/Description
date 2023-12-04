@@ -1,0 +1,5 @@
+arr[]: An array of integers that you want to rotate.
+n: The number of elements in the array.
+t is initialized with the last element of the array arr[].
+The for loop starts from the end of the array and moves each element to the right by one position (arr[i] = arr[i - 1]). This effectively shifts all elements except the first one to the right.
+Finally, the first element of the original array (arr[0]) is set to the value stored in t, which was the original last element of the array. This completes the rotation, moving the last element to the beginning of the array.
