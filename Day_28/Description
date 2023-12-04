@@ -1,0 +1,9 @@
+int top: Keeps track of the index of the top element in the stack.
+int arr[]: An array used to store the elements of the stack. Its size is set to 1000.
+MyStack(): Initializes the stack. Sets the initial value of top to -1, indicating an empty stack.
+Functionality: Adds an element to the top of the stack.
+Steps:
+Checks if the stack is full (top == arr.length - 1). If the stack is full, it doesn't perform any action and returns.
+If the stack is not full, increments top to point to the next available position and adds the element a to the arr at the updated top index.
+pop()
+Functionality: Removes and returns the element at the top of the stack.
