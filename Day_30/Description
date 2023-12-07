@@ -1,0 +1,11 @@
+arr: The input array of integers.
+n: The size of the input array.
+k: The target sum for which pairs are being counted.
+Create a HashMap called seen to store the numbers encountered so far and their frequencies.
+Initialize a variable count to keep track of the number of pairs found.
+Loop through each element (num) in the input array.
+For each num, calculate the value b which is k - num. This b represents the number needed to form a pair with num such that their sum is equal to k.
+Check if the b value exists in the seen map.
+If it exists, increment count by the frequency of b in the seen map. This means there are seen.get(b) pairs that sum up to k.
+Update the seen map by incrementing the frequency of the current number (num).
+Once the loop completes, return the final count, which represents the total number of pairs found in the array that sum up to k.
