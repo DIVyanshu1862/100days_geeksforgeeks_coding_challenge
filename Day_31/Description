@@ -1,0 +1,18 @@
+Parameters:
+arr[]: An array of strings.
+n: An integer indicating the number of strings in the array.
+Checks if the array is empty. If so, it returns an empty string.
+Checks if there's only one string in the array. If so, it returns that string as it is the only common prefix.
+Initializes variables:
+word1: Set as the first string in the array.
+word2: An empty string initially.
+result: A string to store the common prefix.
+Starts a loop from the second string in the array (i=1) to the last string (i<n).
+Compares each consecutive string (word2) with the current common prefix (word1).
+Using a while loop, it compares characters at each position of word1 and word2.
+If the characters match, it adds that character to the result string (building the common prefix).
+If the characters don't match, it breaks out of the loop.
+Sets word1 as the updated common prefix (result).
+Checks if the final result is an empty string.
+If it's empty, returns "-1" as there's no common prefix.
+Otherwise, returns the found common prefix.
