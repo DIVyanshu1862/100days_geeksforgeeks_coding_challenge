@@ -1,0 +1,9 @@
+nums[]: Input array containing integers.
+n: The number of elements in the input array.
+It initializes a new array pA of type long[] to store the products of all elements except the element at the current index.
+It iterates through each element in the nums[] array using a for loop.
+Inside the outer loop, it has another nested for loop to calculate the product of all elements except the element at index i.
+Within the inner loop, for each element at index i, it initializes a variable c to 1.
+It multiplies all elements except the one at index i to update the product in the pA array.
+The if condition if(i == j) continue; ensures that the element at the current index is skipped for multiplication.
+After calculating the product excluding the element at index i, it assigns this product to the pA array at index i.
