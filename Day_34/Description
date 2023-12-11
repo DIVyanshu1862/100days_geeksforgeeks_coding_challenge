@@ -1,0 +1,6 @@
+arr[]: The input array of integers that needs to be rearranged.
+n: The number of elements in the array.
+Two queues, pos for positive integers and neg for negative integers, are created using Java's LinkedList implementation of the Queue interface.
+The code traverses the input array and separates positive integers (including 0) into the pos queue and negative integers into the neg queue.
+An index i is initialized to 0 to keep track of the position where elements will be placed in the output array.
+The code uses a while loop that continues until i reaches n (the total number of elements in the array).
