@@ -1,0 +1,12 @@
+Parameters:
+
+root1 and root2: Represent the roots of the two binary trees.
+Logic:
+
+Checks if both root1 and root2 are null. If both are null, it returns true as identical.
+If one tree is null and the other is not, they cannot be identical, so it returns false.
+Compares the data of the current nodes (root1.data and root2.data). If they are equal:
+Recursively checks the left subtrees of both trees (root1.left and root2.left).
+Recursively checks the right subtrees of both trees (root1.right and root2.right).
+Returns true only if both current nodes are equal and their corresponding left and right subtrees are also identical.
+If at any point the data of the current nodes are not equal, it returns false immediately.
