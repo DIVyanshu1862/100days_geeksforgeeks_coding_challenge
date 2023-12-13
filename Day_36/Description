@@ -1,0 +1,17 @@
+array[]: The array to be partitioned.
+a and b: The range values.
+start: Marks the boundary for elements less than a.
+mid: Traverses the array.
+last: Marks the boundary for elements greater than b.
+Initialize start to 0, mid to 0, and last to array.length - 1.
+Loop while mid is less than or equal to last.
+Within the loop:
+If array[mid] is less than a:
+Swap array[mid] with array[start].
+Increment both start and mid pointers.
+Else, if array[mid] is between a and b (inclusive):
+Increment only the mid pointer.
+Else, if array[mid] is greater than b:
+Swap array[mid] with array[last].
+Decrement the last pointer.
+The loop continues until mid crosses or reaches last.
