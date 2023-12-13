@@ -1,0 +1,12 @@
+mod: A constant value used for modulo operations.
+ans: A variable storing the final answer for the sum of paths.
+mp: A HashMap used to store intermediate results.
+root: Represents the root of the binary tree.
+sum: Represents the target sum.
+cur: Represents the current sum up to the current node.
+Base Case: If root is null, the function returns.
+Checks if cur + root.data - sum exists in the HashMap. If it does, it adds its frequency to the answer.
+Checks if cur + root.data is equal to sum. If yes, increments the answer by 1.
+Updates the frequency of cur + root.data in the HashMap.
+Recursively calls the function for the left and right subtrees with updated parameters.
+Decrements the frequency of cur + root.data in the HashMap after processing the subtrees.
