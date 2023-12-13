@@ -1,0 +1,9 @@
+int arr[]: An integer array used to store elements of the two stacks.
+int size: Represents the total size of the array.
+int top1, top2: Pointers indicating the top of the first and second stacks respectively.
+Initializes the size to 100.
+Creates an array of size 100 and sets top1 to -1 (indicating an empty stack1) and top2 to size (indicating an empty stack2 at the end of the array).
+Adds an element x to the stack1.
+Increments top1 and assigns x to the array at the index top1.
+Adds an element x to the stack2.
+Decrements top2 and assigns x to the array at the index top2.
