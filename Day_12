@@ -1,6 +1,0 @@
-Parameters:
-head1: Represents the head node of the first linked list.
-head2: Represents the head node of the second linked list.
-Variables:
-result: Represents the head node of the resulting linked list containing the intersection values.
-tail: Represents the last node of the resulting linked list.
