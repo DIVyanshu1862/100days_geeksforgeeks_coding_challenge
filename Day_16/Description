@@ -1,0 +1,17 @@
+Parameters:
+
+node: Represents the current node in the AVL tree.
+data: The value to be inserted into the AVL tree.
+Logic:
+
+If the node is null, creates a new node with the given data.
+Compares the data to be inserted (data) with the data in the current node and traverses the tree accordingly.
+Recalculates the height of the current node based on the maximum height of its left and right subtrees.
+Calculates the balance factor (bf) of the node.
+Performs necessary rotations (leftRotate and rightRotate) to balance the tree if the balance factor indicates an imbalance.
+rightRotate and leftRotate Methods:
+These methods perform right and left rotations, respectively, to balance the tree.
+getBalance Method:
+Calculates the balance factor (height(left subtree) - height(right subtree)) of the given node.
+height Method:
+Retrieves the height of the given node.
