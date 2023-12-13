@@ -1,1 +1,22 @@
+Parameters:
 
+head1 and head2: Represent the heads of two linked lists.
+Variables:
+
+result: Points to the head of the resulting linked list containing the intersection.
+tail: Points to the last node in the resulting linked list.
+Logic:
+
+Initialize result and tail as null.
+Use a while loop to iterate through both linked lists as long as both head1 and head2 are not null.
+Inside the loop:
+If the data at the current nodes (head1.data and head2.data) is equal:
+If result is null, create a new node with the value and set it as result. Set tail to result.
+If result exists, create a new node with the value and set it as the next node of tail. Move tail to this new node.
+Move both head1 and head2 to their respective next nodes.
+If head1.data is less than head2.data, move head1 to its next node.
+If head1.data is greater than head2.data, move head2 to its next node.
+Continue this process until either head1 or head2 becomes null.
+Return:
+
+The method returns the head of the resulting linked list (result), which contains nodes representing the intersection of elements from both input linked lists.
