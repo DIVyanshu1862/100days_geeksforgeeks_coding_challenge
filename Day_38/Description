@@ -1,0 +1,5 @@
+The code begins by sorting the input array a[] in ascending order using Arrays.sort(a). This rearranges the elements to prepare for subsequent operations.
+The code iterates through the sorted array while k is greater than 0, i is within the bounds of the array (i < n), and the current element a[i] is negative (a[i] < 0).
+Inside the loop, it makes negative numbers positive by negating them (a[i] = -a[i]), decrements k, and moves to the next element.
+After the loop, if k is an odd number (k % 2 == 1), it implies there are remaining operations.
+In this case, it resorts the array (to identify the smallest element, which will be negative after previous transformations) and negates the smallest element by making it the largest negative value.
