@@ -1,0 +1,12 @@
+arr[] - an integer array
+n - an integer representing the size of the array
+k - an integer used as a divisor
+It initializes a counter variable count to 0 and calculates the threshold value nbyk (which is n/k).
+
+It uses an unordered_map named m to store the frequency of each element in the array. The key of the map is the array element, and the value is the frequency of that element in the array.
+
+The function then iterates through the array:
+
+For each element arr[i], it increments its count in the unordered_map m.
+If the count of the current element arr[i] in the map exceeds the threshold (nbyk), it sets the count of that element in the map to INT_MIN (the minimum value for an integer in C++) and increments the count variable.
+After iterating through the array, the function returns the count, which represents the number of elements that appear more than n/k times in the array.
