@@ -1,0 +1,13 @@
+The method sortBySetBitCount takes an array of Integers arr and its length n as parameters.
+
+It initializes a TreeMap<Integer, ArrayList<Integer>> named map. This map will store the count of set bits as keys and corresponding numbers with that count as values in ArrayLists.
+
+The code then iterates through each element of the input array arr:
+
+a. It counts the number of set bits in each element using the bitwise operation num = num & (num-1) until num becomes zero. This counts the number of set bits in the number and stores it in the variable res.
+
+b. It uses map.computeIfAbsent(res, k -> new ArrayList<>()).add(arr[i]) to add the current number to the ArrayList corresponding to its set bit count in the TreeMap map.
+
+After populating the map, the code sorts the array arr by set bit count. It iterates through the values of the TreeMap (which are ArrayLists of numbers grouped by their set bit counts) in ascending order:
+
+a. Within each group, it removes the numbers from the ArrayList and places them in reverse order back into the original array arr, starting from the end (k = n-1) and moving towards the beginning.
