@@ -1,4 +1,0 @@
-class Solution { ... }: Defines a class named Solution which contains the method to check if two strings are rotations of each other.
-Access Specifier: public static: This method is accessible from other classes (public) and can be called without creating an instance of the Solution class (static).
-Return Type: boolean: This method returns a boolean value (true or false) based on whether the strings are rotations of each other or not.
-Parameters: Two strings (s1 and s2) are taken as input parameters to compare for rotation.
