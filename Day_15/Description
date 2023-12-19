@@ -1,9 +1,0 @@
-root: Root node of the binary tree.
-Logic:
-
-Checks whether the given binary tree is symmetric.
-If the root is null, it is considered symmetric (return true).
-Checks if the left subtree and the right subtree of the root node are mirror images using the isMirror function.
-Return:
-
-Returns true if the tree is symmetric (left and right subtrees are mirror images), false otherwise.
