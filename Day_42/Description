@@ -1,0 +1,14 @@
+Input Parameters:
+
+int[] a: An array of integers.
+int N: An integer representing the number of elements to be considered for the subset.
+Method Explanation:
+
+minSubset method takes in an array a and an integer N.
+It sorts the array in ascending order using Arrays.sort(a).
+Then, it calculates the total sum of all elements in the array using the variable totalSum.
+The method iterates through the sorted array from the end (N - 1 to 0).
+Inside the loop, it subtracts the current element from totalSum and adds it to subsetSum.
+The count of considered elements (minElements) decreases for each element added to the subset.
+If at any point the subsetSum becomes greater than the totalSum, the method returns the current count of elements (minElements).
+If no subset satisfies the condition, the method returns 1.
