@@ -1,8 +1,0 @@
-snakePattern is a static method that takes a 2D integer array matrix as input.
-It returns an ArrayList containing integers, representing the elements visited in the snake pattern.
-Initializes an empty ArrayList named snake to store the elements visited in the snake pattern.
-Determines the size of the square matrix by obtaining the length of the input matrix (assuming it's a square matrix).
-Iterates through each row of the matrix.
-For even-indexed rows (0, 2, 4, ...), it traverses from left to right and adds each element to the snake ArrayList.
-For odd-indexed rows (1, 3, 5, ...), it traverses from right to left and adds each element to the snake ArrayList.
-Returns the ArrayList containing the elements visited in the snake pattern.
