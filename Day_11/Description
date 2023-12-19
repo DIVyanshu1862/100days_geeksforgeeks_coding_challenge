@@ -1,4 +1,0 @@
-It contains three fields: data to store the value, prev to reference the previous node, and next to reference the next node.
-The constructor initializes the node with the given data value and sets prev and next as null.
-reverseDLL(Node head) is a static method within the DoublyLinkedList class responsible for reversing the doubly linked list.
-It takes the head node of the list as an argument.
