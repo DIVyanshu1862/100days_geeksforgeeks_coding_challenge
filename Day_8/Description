@@ -1,8 +1,0 @@
-Input Parameters:
-str1: First input string.
-str2: Second input string.
-Initialization:
-mod is set to 1000000007.
-The length of the first input string (str1) is stored in n.
-Two arrays, lastPos1 and lastPos2, are created to store the last position of each character encountered in str1 and str2, respectively.
-dp1 and dp2 arrays are initialized to store the count of distinct subsequences for str1 and str2.
