@@ -1,6 +1,0 @@
-Check Lengths: Compares the lengths of str1 and str2. If they are not equal, it immediately returns false as strings of different lengths cannot be rotations of each other.
-Handle Edge Cases: If the lengths are less than 2 characters, it directly compares the strings to check if they are equal and returns the result.
-Rotation Check:
-Creates two rotated versions of str1:
-clockwiseRotation: Moves the last two characters of str1 to the beginning.
-anticlockwiseRotation: Moves the first two characters of str1 to the end.
