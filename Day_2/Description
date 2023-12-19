@@ -1,8 +1,0 @@
-This method takes in two parameters:
-
-arr[][]: A 2D array representing the square matrix.
-N: An integer denoting the size of the square matrix.
-Variables Initialization
-maxZeros: Tracks the maximum number of zeros found in any column.
-columnIndex: Holds the index of the column with the most zeros, initialized as -1.
-currZeros: Counts the number of zeros in the current column (i) by checking each element in that column. If the element is zero, currZeros increments.
