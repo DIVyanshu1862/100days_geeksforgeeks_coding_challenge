@@ -1,6 +1,0 @@
-Method Signature: public String findString(int n, int k): This method generates a string of length n using characters from '0' to 'k' (inclusive) without repeating any sequence of n characters.
-StringBuilder ans = new StringBuilder();: Initializes an empty StringBuilder object to construct the final string.
-for (int i = 0; i < n; i++) { ans.append('0'); }: Initializes the StringBuilder with '0' characters, ensuring it has a length of n.
-k--: Reduces k by 1.
-HashSet<String> visited = new HashSet<>();: Initializes a HashSet to keep track of visited strings.
-visited.add(ans.toString());: Adds the initial string of '0's to the visited set.
