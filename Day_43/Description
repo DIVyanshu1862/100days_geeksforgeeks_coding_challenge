@@ -1,0 +1,4 @@
+arr[]: The array of integers where the search is performed.
+n: The size of the array.
+x: The value to be searched for in the array.
+k: This parameter is defined in the function signature but not utilized within the function. As it stands, it doesn't affect the behavior of the search function.
