@@ -1,0 +1,5 @@
+Sorts arrays A and B in ascending order using Arrays.sort().
+Initializes a variable sum as a long to accumulate the sum of absolute differences.
+Iterates through the arrays using a loop from 0 to N-1.
+At each index i, calculates the absolute difference between A[i] and B[i] using Math.abs() and adds it to the sum.
+Finally, returns the calculated sum.
