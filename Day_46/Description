@@ -1,0 +1,16 @@
+Method Signature: convertToWave(int n, int[] a)
+
+n: Represents the length of the array a.
+a: An array of integers to be transformed into a wave pattern.
+Loop Iteration:
+
+The for loop runs through the array elements, incrementing by 2 in each iteration (i += 2). This loop iterates over the array indices from 0 to n - 1 (excluding the last element).
+Element Swapping:
+
+Within the loop, adjacent elements are swapped to create the "wave" pattern.
+The temp variable temporarily holds the value of a[i].
+a[i] is updated with the value of a[i + 1].
+Finally, a[i + 1] is updated with the value stored in the temp variable, effectively swapping the elements at indices i and i + 1 in the array a.
+Wave Pattern:
+
+The swapping process continues until it reaches the end of the array or until there are no more pairs of adjacent elements to swap.
