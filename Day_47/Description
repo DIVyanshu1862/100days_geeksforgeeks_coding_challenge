@@ -1,0 +1,12 @@
+Node Class:
+
+Node represents the individual nodes of the binary tree.
+It contains three fields:
+data: Holds the integer value/data of the node.
+left: Represents the left child node.
+right: Represents the right child node.
+The constructor initializes a node with the given data and sets both left and right children to null.
+BinaryTree Class:
+
+Contains a method preorder responsible for performing a preorder traversal on the binary tree.
+Also includes a main method for demonstration purposes.
