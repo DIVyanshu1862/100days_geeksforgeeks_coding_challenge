@@ -1,0 +1,16 @@
+arr : An array of integers
+n : An integer representing the size of the array
+Steps:
+Check for edge cases:
+
+If the array has only one element (n == 1), return that single element as it is the maximum by default.
+Check if the first element is greater than the second element. If true, return the first element since it's a peak.
+Check if the last element is greater than the second-to-last element. If true, return the last element since it's a peak.
+Loop through the array:
+
+Using a for loop, iterate through the array starting from index 1 up to n - 2 (to ensure there are valid adjacent elements).
+For each element at index i, check if it is greater than its previous element (arr[i - 1]) and also greater than its next element (arr[i + 1]).
+If both conditions are met, the current element (arr[i]) is a peak element, and the code returns it immediately as the maximum peak element found.
+Return default value if no peak is found:
+
+If the loop completes without finding any peak element, the function returns -1 indicating that no peak element was found in the array.
