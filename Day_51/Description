@@ -1,0 +1,26 @@
+
+class Solution {
+
+    static int search(int arr[], int N, int X) {
+
+        for (int i = 0; i < N; i++) {
+            if (arr[i] == X) {
+                return i;
+            }
+        }
+        return -1; // Your code here
+
+    }
+
+}
+The code you've provided is a Java method search within the Solution class. This method takes in an array arr, its size N, and an integer X to find the index of the element X in the array.
+
+The method uses a simple linear search technique by iterating through the array elements. It checks if the current element matches the value of X. If a match is found, it returns the index of the element. If no match is found after iterating through the entire array, it returns -1 indicating that the element X was not found in the array.
+
+Here's an explanation of the code:
+
+int search(int arr[], int N, int X) - This method receives an integer array arr, its size N, and an integer X to search for.
+for (int i = 0; i < N; i++) - This loop iterates through the array starting from index 0 up to N-1.
+if (arr[i] == X) - It checks if the current element at index i in the array arr matches the value of X.
+return i; - If a match is found, it returns the index i where the element X is located in the array.
+return -1; - If the loop completes without finding any match for X in the array, it returns -1, indicating that the element X is not present in the array.
