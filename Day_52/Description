@@ -1,0 +1,6 @@
+It takes two strings, a and b, as input parameters.
+Checks if the lengths of the strings a and b are different. If they are different, the method returns false immediately because strings of different lengths cannot be anagrams.
+Converts strings a and b into character arrays arr and brr, respectively.
+Sorts both character arrays using Arrays.sort() method.
+Compares each character of the sorted arrays. If any character at a corresponding index is different, it returns false indicating that the strings are not anagrams.
+If the loop completes without finding any differing characters, it returns true, confirming that the strings are anagrams.
