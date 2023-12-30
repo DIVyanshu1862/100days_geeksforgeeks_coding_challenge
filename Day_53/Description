@@ -1,0 +1,12 @@
+Class Definition: The code defines a class named Compute.
+
+Static Method getMinMax: This method is declared as static, which means it belongs to the class itself and can be accessed without creating an instance of the class.
+Parameters:
+a[]: An array of long integers.
+n: The number of elements in the array.
+Functionality:
+Initializes max and min variables to the first element of the array a[].
+Iterates through the array starting from the second element.
+Compares each element of the array with the current max and min values using Math.max() and Math.min() respectively.
+Updates max and min values if a larger or smaller element is found during the iteration.
+Finally, returns a Pair object containing the minimum and maximum values found in the array.
