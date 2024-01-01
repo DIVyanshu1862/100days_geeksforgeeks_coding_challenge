@@ -1,0 +1,11 @@
+Class Solution: It contains the method inOrder responsible for initiating the inorder traversal of the binary tree. The method receives the root node of the tree as an argument and returns an ArrayList containing the inorder traversal of the tree.
+
+inOrder method:
+
+Parameters: Node root (Root node of the binary tree)
+Return Type: ArrayList<Integer> (List containing the inorder traversal)
+The inOrder method initializes an empty ArrayList called ans and then calls the helper method giv to perform the actual inorder traversal of the tree, passing the root node and the ArrayList as arguments. Finally, it returns the ArrayList containing the inorder traversal.
+
+giv method (Helper method for inorder traversal):
+
+Parameters: Node root, ArrayList<Integer> ans (Current node and the ArrayList)
