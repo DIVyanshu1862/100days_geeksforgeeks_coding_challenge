@@ -1,0 +1,12 @@
+postOrder(Node root) Method:
+This method initializes an empty ArrayList<Integer> named a to store the post-order traversal result.
+It calls the helper method g(a, root) to perform the post-order traversal of the binary tree.
+Finally, it returns the ArrayList<Integer> containing the post-order traversal result.
+Helper Method:
+g(ArrayList<Integer> a, Node root) Method:
+This method performs the actual post-order traversal.
+It is a recursive method that traverses the tree in a post-order manner.
+If the current node (root) is null, it returns immediately.
+It recursively visits the left subtree by calling g(a, root.left).
+It then recursively visits the right subtree by calling g(a, root.right).
+After visiting the subtrees, it adds the data of the current node to the ArrayList a.
