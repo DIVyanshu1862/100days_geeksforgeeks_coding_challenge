@@ -1,0 +1,8 @@
+insert method: This method is meant to insert an element into its correct sorted position within the array.
+
+It starts by swapping elements if the previous element is greater than the current element, effectively moving the current element to its correct sorted position in the array.
+insertionSort method: This is the main insertion sort routine.
+
+It iterates through the array, starting from index 1 (since the element at index 0 is considered sorted by default).
+
+For each element, it checks if the previous element is greater. If so, it calls the insert method to insert the current element into the correct position in the sorted part of the array.
