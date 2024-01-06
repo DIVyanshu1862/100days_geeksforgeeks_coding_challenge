@@ -1,0 +1,7 @@
+Logic:
+
+It initializes an array named fibArray of type long with a size of 'n' to store the Fibonacci numbers.
+If 'n' is 1 or greater, it sets fibArray[0] to 1.
+If 'n' is 2 or greater, it sets fibArray[1] to 1. These are the first two numbers in the Fibonacci sequence.
+It then uses a loop starting from index 2 up to n - 1 to compute subsequent Fibonacci numbers using the formula fibArray[i] = fibArray[i-2] + fibArray[i-1];. This formula calculates each Fibonacci number by summing the previous two numbers in the sequence.
+Finally, it returns the fibArray containing the first 'n' Fibonacci numbers.
