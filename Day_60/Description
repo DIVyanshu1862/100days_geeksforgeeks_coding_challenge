@@ -1,0 +1,3 @@
+The function rotateby90 takes a 2D square matrix (matrix) and its size n as input.
+It utilizes nested loops to iterate through each layer of the matrix from the outermost layer to the innermost.
+Within the loops, it performs a series of swaps to rotate the elements layer by layer in an anticlockwise direction.
