@@ -1,0 +1,4 @@
+The method sumMatrix takes two long values, n and q.
+It first checks if q is greater than 2*n. If it is, the method returns 0.
+Then, it calculates the value of x as (2 + 2*n)/2, which simplifies to 1 + n.
+Finally, the method returns the result of n - Math.abs(x - q).
