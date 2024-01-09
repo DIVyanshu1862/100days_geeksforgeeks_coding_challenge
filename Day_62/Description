@@ -1,0 +1,7 @@
+Algorithm:
+
+The method initially sets a variable 'a' to 0 (which is not used in the given code).
+It then enters a while loop that runs as long as 'k' is greater than 0.
+Inside the loop, the value of 'n' is right-shifted by 1 (n = n >> 1) 'k' times, effectively shifting the bits to the right 'k' times.
+After the shifting loop, the code checks whether the last bit of 'n' (obtained after the right shifts) is 0 or 1 by performing a bitwise AND operation with 1 ((n & 1)).
+If the result of the bitwise AND is 0, the method returns false, indicating that the k-th bit is 0. Otherwise, it returns true, indicating that the k-th bit is 1.
