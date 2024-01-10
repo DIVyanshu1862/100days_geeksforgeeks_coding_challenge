@@ -1,0 +1,6 @@
+The reverseList method is called recursively until it reaches the last node of the original list.
+Once the base case is hit (when head is either null or the last node), it starts reversing the pointers.
+It creates a newHead variable that stores the new head of the reversed list (which is actually the last node of the original list).
+The front variable is set to head.next, representing the node next to the current head.
+Then, it reverses the pointers by setting front.next to head, effectively reversing the link between nodes.
+head.next is set to null to break the link to the next node (as it becomes the new tail of the reversed list).
