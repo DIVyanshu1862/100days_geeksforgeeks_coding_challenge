@@ -1,0 +1,7 @@
+The count method takes three parameters: an array of coin denominations (coins), the number of coins (n), and the target sum (sum).
+It initializes a long array ans of size sum+1 to store the count of ways to make each sum value from 0 to sum.
+It sets ans[0] to 1 since there is one way to make a sum of 0, i.e., by not using any coins.
+The code then iterates over each coin denomination in the coins array using the outer loop (for(int i=0; i<n; i++)).
+For each coin denomination coins[i], it iterates over each possible sum value from coins[i] to sum using the inner loop (for(int j=coins[i]; j<=sum; j++)).
+For each combination of coin and sum, it updates the count by adding the count for the current sum minus the value of the current coin (ans[j-coins[i]]).
+Finally, the method returns ans[sum], which represents the count of ways to make the target sum using the given coin denominations.
