@@ -1,0 +1,4 @@
+Create a new node temp with the value x.
+Check if x is less than or equal to the value of the head node. If true, insert the new node at the beginning of the list and update the pointers accordingly.
+If x is greater than the head node's value, traverse the list until the appropriate position is found (where the new node's value is less than the next node's value or the end of the list is reached).
+Insert the new node temp at the correct position and update the pointers accordingly.
