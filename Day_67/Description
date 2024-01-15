@@ -1,0 +1,13 @@
+The class GfG contains a method deleteNode to delete a node at a given position in a linked list.
+The method takes two parameters: head is the head of the linked list, and x is the position of the node to be deleted.
+It checks if the linked list is empty. If so, it returns null as there is nothing to delete.
+If x is 1, it means the first node needs to be deleted. In this case, it updates the head to point to the next node and returns the updated head.
+Otherwise, it traverses the linked list to find the node at position x. It uses two pointers, curr and prev, to keep track of the current and previous nodes.
+If the given position is invalid (beyond the length of the linked list), it returns the original head without making any changes.
+If the position is valid, it updates the pointers to skip the node at position x, effectively removing it from the linked list.
+Finally, it returns the updated head of the linked list.
+
+
+
+
+
