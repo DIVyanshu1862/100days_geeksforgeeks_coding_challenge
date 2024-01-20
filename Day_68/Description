@@ -1,0 +1,1 @@
+pop(): This method is used to pop an element from the stack. It transfers all elements except the last one from q1 to q2, then removes and returns the last element from q1. After that, it transfers all elements back from q2 to q1.
