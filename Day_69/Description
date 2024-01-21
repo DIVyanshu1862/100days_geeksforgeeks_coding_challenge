@@ -1,0 +1,1 @@
+This is an implementation of a queue using two stacks in Java. The class Queue has two stacks: input and output. The idea is to use the two stacks to simulate the behavior of a queue. The enqueue method is used to insert elements into the queue, and the dequeue method is used to remove and return the front element of the queue.
