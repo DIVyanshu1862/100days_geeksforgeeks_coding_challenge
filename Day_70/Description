@@ -1,0 +1,16 @@
+The levelOrder method initializes an empty ArrayList named ans to store the result.
+
+It checks if the input node is null. If it is, an empty ArrayList is returned.
+
+A Queue of type Node named q is created using the LinkedList implementation.
+
+The root node is added to the queue.
+
+A while loop is used to traverse the tree level by level until the queue becomes empty.
+
+Inside the loop:
+
+The front node of the queue (curr) is removed, and its data is added to the ans ArrayList.
+If the left child of the current node is not null, it is added to the queue.
+If the right child of the current node is not null, it is also added to the queue.
+Once the traversal is complete, the ArrayList ans containing the level order traversal is returned.
