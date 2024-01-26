@@ -1,0 +1,11 @@
+dfsHelper method:
+
+This method takes the current node, an array to track visited nodes, the adjacency list of the graph, and a list to store the DFS traversal result.
+It marks the current node as visited and adds it to the result list.
+It then recursively calls dfsHelper for all adjacent nodes that have not been visited yet.
+dfsOfGraph method:
+
+This method initializes the visited array and the result list.
+It calls the dfsHelper method with the starting node (0 in this case), the visited array, the adjacency list, and the result list.
+Finally, it returns the result list containing the DFS traversal of the graph.
+Here's an example of how to use this class:
