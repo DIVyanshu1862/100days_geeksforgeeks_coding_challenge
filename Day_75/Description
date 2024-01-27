@@ -1,0 +1,11 @@
+Palindrome method:
+
+It uses two pointers (i and j) to iterate through the string from both ends towards the center.
+It checks if the characters at the current positions are equal. If not, it returns false.
+If the loop completes without returning, it means the string is a palindrome, and it returns true.
+CountPS method:
+
+It initializes a count variable to 0.
+It uses two nested loops to iterate through all possible substrings of the given string.
+For each substring, it checks if it is a palindrome using the Palindrome method and if its length is greater than or equal to 2. If true, it increments the count.
+Finally, it returns the count.
