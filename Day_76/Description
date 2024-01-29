@@ -1,0 +1,13 @@
+The method starts by initializing an empty ArrayList ans, which will store the maximum values of each subarray.
+
+A for loop iterates through the array from index 0 to n - k. This loop represents the starting index of each subarray.
+
+Within the outer loop, there is an inner while loop with a counter j initialized to 0. This loop is used to iterate through each element within the current subarray of size k.
+
+Inside the inner loop, there is a check to find the maximum element (max) within the current subarray. The variable temp is used as an index to traverse the subarray.
+
+Once the maximum element within the subarray is found, it is added to the ans ArrayList.
+
+The outer loop continues to iterate through the array, and the process is repeated for each subarray.
+
+Finally, the ans ArrayList containing the maximum values of each subarray is returned.
