@@ -1,0 +1,18 @@
+buildHeap method:
+
+This method is used to build a max heap from the given array arr of size n.
+The loop starts from the last non-leaf node (n/2-1) and iterates backward towards the root.
+For each node, the heapify method is called to ensure that the heap property is maintained.
+heapify method:
+
+This method is responsible for maintaining the max heap property.
+It takes the array arr, its size n, and the index i as parameters.
+It compares the element at index i with its left and right children (if they exist).
+If either child is greater than the current element, the largest index is updated accordingly.
+If the largest index is not equal to the current index i, a swap is performed, and the method is recursively called on the affected subtree.
+heapSort method:
+
+This is the main sorting method that uses the heap sort algorithm.
+It first builds a max heap using the buildHeap method.
+Then, it iteratively swaps the root (maximum element) with the last element in the heap and calls heapify to maintain the heap property.
+The loop continues until the entire array is sorted.
