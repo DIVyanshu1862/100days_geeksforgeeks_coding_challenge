@@ -1,0 +1,6 @@
+maxsumsubArray:
+
+This method implements Kadane's algorithm to find the maximum sum of a subarray in a given 1D array.
+It initializes two variables, curr and max, where curr represents the current sum of elements, and max represents the maximum sum encountered so far.
+The method iterates through the array, updating curr by adding each element. If curr becomes greater than max, max is updated. If curr becomes negative, it is reset to 0.
+The final maximum sum (max) of the subarray is returned.
