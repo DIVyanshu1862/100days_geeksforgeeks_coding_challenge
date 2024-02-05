@@ -1,0 +1,11 @@
+The numProvinces function initializes a boolean array vis to keep track of visited vertices and sets the initial count of provinces to 0.
+
+It then iterates through all vertices (nodes) in the graph using a for loop.
+
+For each vertex i, if it has not been visited (vis[i] == false), it increments the province count and calls the dfs function to perform a depth-first search starting from that vertex.
+
+The dfs function is a recursive function that takes the adjacency list, the current vertex s, and the boolean array vis as parameters. It marks the current vertex as visited and then recursively calls itself for all unvisited neighbors of the current vertex.
+
+The DFS process continues until all vertices in the connected component containing the initial vertex s are visited.
+
+The numProvinces function returns the count of provinces once all vertices have been visited.
