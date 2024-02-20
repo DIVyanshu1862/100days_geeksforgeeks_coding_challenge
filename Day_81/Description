@@ -1,0 +1,12 @@
+public static int wordBreak(int N, String s, ArrayList<String> dictionary): This method takes three parameters:
+
+N: The size of the dictionary (number of words).
+s: The input string that needs to be segmented.
+dictionary: An ArrayList containing the dictionary of words.
+int n = s.length();: This line initializes a variable n with the length of the input string s.
+
+int dp[] = new int[n + 1];: This creates an integer array dp of size n + 1. This array is used for dynamic programming to store intermediate results.
+
+dp[n] = 1;: Set the last element of the dp array to 1, indicating that the substring from the last character to the end of the string is a valid
+
+
