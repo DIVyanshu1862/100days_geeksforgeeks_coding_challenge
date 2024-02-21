@@ -1,0 +1,6 @@
+
+This Java class Hanoi implements the Tower of Hanoi problem. The Tower of Hanoi is a classic problem where you have three rods and a number of disks of different sizes which can be slid onto any rod. The objective of the puzzle is to move the entire stack of disks from the starting rod to the ending rod, obeying the following rules:
+
+Only one disk can be moved at a time.
+Each move consists of taking the top disk from one of the stacks and placing it on top of another stack.
+No disk may be placed on top of a smaller disk.
