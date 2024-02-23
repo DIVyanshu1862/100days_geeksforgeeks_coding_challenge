@@ -1,0 +1,8 @@
+The LinkedList class is defined, presumably with other methods and properties not shown here.
+The sortedMerge method takes two parameters, head1 and head2, which are the heads of two sorted linked lists to be merged.
+Inside the sortedMerge method:
+Node ans = new Node(-1) creates a dummy node with value -1. This dummy node will serve as the head of the merged list.
+Node curr = ans initializes a pointer curr to point to the dummy node.
+The while loop iterates as long as both head1 and head2 are not null. It compares the data of the current nodes in head1 and head2 and appends the smaller one to the merged list pointed by curr.
+After the loop, if there are remaining nodes in head1 or head2, the code appends them to the merged list.
+Finally, it returns the next node after the dummy node, which effectively skips the dummy node and returns the actual merged list.
