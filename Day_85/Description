@@ -1,0 +1,5 @@
+It initializes a variable store of type long to store the result.
+It iterates over a range of numbers from 0 to n (inclusive) with a step size of 3.
+Within each iteration, it checks if (n - i) % 5 == 0, which means if the difference between n and the current value i is divisible by 5 without any remainder.
+If the condition is true, it adds (n - i) / 10 + 1 to the store. Otherwise, it adds 0.
+Finally, it returns the value stored in store.
