@@ -1,0 +1,8 @@
+This Java code defines a class Solution that contains a method AllPossibleStrings which takes a string s as input and returns a list of all possible strings that can be formed by removing characters from the input string s. The method solve is a helper method that recursively generates all possible strings.
+
+Here's a breakdown of how the code works:
+
+The AllPossibleStrings method initializes an empty ArrayList a to store the generated strings.
+It then calls the solve method with the input string s, an empty string "" (initially) as the current answer,
+
+
