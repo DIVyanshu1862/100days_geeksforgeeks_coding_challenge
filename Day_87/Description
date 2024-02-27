@@ -1,0 +1,5 @@
+Solution class: This is the main class containing the Dijkstra's algorithm implementation.
+
+pair class: This is a static nested class used to represent a pair of values (vertex, weight). It is used to store vertices along with their distances from the source vertex.
+
+dijkstra method: This is a static method responsible for performing Dijkstra's algorithm. It takes the number of vertices V, an adjacency
