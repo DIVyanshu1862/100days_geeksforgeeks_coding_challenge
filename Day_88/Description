@@ -1,0 +1,5 @@
+DivisibleByEight(String s): This method takes a string s as input, which represents a number.
+It initializes two variables num and n. num is used to store the converted integer value of the last 3 digits of the input string. n stores the length of the input string.
+If the length of the string s is less than 4 (i.e., it's a 1, 2, or 3-digit number), the method iterates over each character of the string, converts it to its integer value, and accumulates it in num.
+If the length of the string is 4 or more, it only considers the last three characters (digits) of the string for conversion to an integer and stores it in num.
+Finally, it returns 1 if the value stored in num is divisible by 8; otherwise, it returns -1.
