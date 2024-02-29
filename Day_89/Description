@@ -1,0 +1,3 @@
+The condition adj.get(i).get(j) == 1 might not be correct. It checks if there's a direct connection between vertices i and j. However, in an adjacency list representation, adj.get(i).get(j) might not directly indicate an edge. Instead, you should check if j is present in the adjacency list of i.
+
+The unionByRank() method is typically used for weighted union in disjoint set data structures. But in your case, you seem to be intending to union vertices i and j if they are connected. For that purpose, you should use the union() method.
