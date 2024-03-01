@@ -1,0 +1,12 @@
+It starts by checking if the size of the array is 1. If so, it immediately returns 0, indicating that the only element in the array is a peak.
+
+It initializes a variable peak to hold the index of the peak element.
+
+It iterates through the array using a for loop.
+
+Inside the loop, it checks for different cases:
+
+If the current element is the first element, it checks if it's greater than or equal to its next element. If so, it returns the index of the current element as the peak.
+If the current element is the last element, it checks if it's greater than or equal to its previous element. If so, it returns the index of the current element as the peak.
+For all other elements, it checks if the current element is greater than or equal to both its previous and next elements. If so, it returns the index of the current element as the peak.
+If no peak is found during the iteration, it returns the initial value of peak, which is 0.
