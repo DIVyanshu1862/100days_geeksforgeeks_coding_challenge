@@ -1,0 +1,6 @@
+The given Java code defines a class Solution with a static method nextLargerElement to find the next greater element for each element of an array. It uses a stack to keep track of the elements and their positions.
+
+Here's a breakdown of what the code does:
+
+It initializes an empty stack and an array res to store the result.
+It iterates over the input array arr in reverse order.
