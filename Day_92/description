@@ -1,0 +1,9 @@
+You're iterating through the array of characters (arr) to identify the positions of police officers ('P') and thieves.
+You're storing the indexes of police officers and thieves in separate ArrayLists.
+Then, you're trying to iterate through both lists to find the optimal pairing of police officers and thieves based on the constraint of distance (k).
+However, there are a few issues and improvements that need to be addressed:
+
+You're missing the import statement for ArrayList. You need to import it before using it.
+You're not sorting the police and thieves ArrayLists, which is necessary for the algorithm to work correctly.
+Your algorithm doesn't handle all possible cases. For example, what if there are no police officers or thieves?
+You need to return the total number of thieves caught, but your implementation is returning the count of caught pairs (ans).
