@@ -1,0 +1,8 @@
+The Solution class contains a method named swapElements, which takes two parameters: an array of integers arr and an integer n. This method aims to swap every pair of elements in the array arr.
+
+Here's a breakdown of what the method does:
+
+It initializes an integer variable i to 0.
+It enters a while loop that continues until i + 2 is less than n.
+Inside the loop, it swaps the element at index i with the element at index i + 2.
+After swapping, it increments the value of i by 1 to move to the next pair of elements.
