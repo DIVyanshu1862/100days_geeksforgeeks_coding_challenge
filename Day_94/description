@@ -1,0 +1,8 @@
+Here's a breakdown of the algorithm:
+
+Two auxiliary arrays, minVal and maxVal, are created with the same size as the input array arr.
+minVal[i] stores the minimum value encountered in the subarray arr[0] to arr[i].
+maxVal[i] stores the maximum value encountered in the subarray arr[i] to arr[n-1].
+Then, two loops are used to fill these auxiliary arrays accordingly.
+After that, a loop iterates through the arrays minVal and maxVal to find the maximum difference in indices where the element at the smaller index is less than or equal to the element at the larger index.
+The maximum difference found is returned as the result.
