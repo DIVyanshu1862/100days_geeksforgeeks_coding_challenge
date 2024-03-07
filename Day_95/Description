@@ -1,0 +1,6 @@
+It initializes a 2D array t of size (n+1) x (n+1) to store the lengths of common substrings.
+It initializes variables max to keep track of the maximum length of the common substring found so far, and ind to keep track of the index where the longest common substring ends.
+It iterates over the string s using two nested loops, comparing each pair of characters to find common substrings.
+When a common substring of length greater than 1 is found, it updates the t array with the length of the common substring and updates max and ind accordingly.
+Finally, it returns the longest common substring found using the substring method of the String class.
+However, there's a logical issue in th
