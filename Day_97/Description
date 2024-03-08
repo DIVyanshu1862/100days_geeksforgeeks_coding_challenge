@@ -1,0 +1,10 @@
+It initializes an array temp of size 26 to keep track of the frequencies of each character in the string.
+It iterates through the input string s and updates the frequency count of each character in the temp array.
+It then iterates through the temp array to find the minimum and maximum frequencies (min and max) and stores them.
+It uses a HashSet set to keep track of the distinct frequencies encountered.
+It checks if there are more than 2 distinct frequencies in the set, in which case it returns false.
+If the minimum frequency min is equal to the maximum frequency max, it returns true.
+Otherwise, it counts the occurrences of the minimum and maximum frequencies in the temp array (count1 and count2 respectively).
+It checks if both count1 and count2 are greater than 1, in which case it returns false.
+It checks if the minimum frequency min is 1 and occurs only once (count1 == 1), in which case it returns true.
+Finally, it checks if the absolute difference between max and min is 1 and count2 is 1. If so, it returns true, otherwise false.
