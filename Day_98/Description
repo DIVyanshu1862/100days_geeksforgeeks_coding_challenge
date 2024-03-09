@@ -1,0 +1,4 @@
+This method takes three parameters:
+s: The input string.
+r: An integer representing the number of iterations.
+n: The index of the character to be found.
