@@ -1,0 +1,15 @@
+Objective:
+The code aims to remove duplicate characters from a given string while preserving the order of characters.
+
+Approach:
+
+Utilizes a LinkedHashSet to store unique characters from the input string while maintaining their order.
+Converts the LinkedHashSet to an ArrayList to maintain order.
+Constructs the final string using a StringBuilder.
+Process:
+
+Iterate through each character of the input string.
+Add each character to the LinkedHashSet. Duplicates are automatically removed due to the nature of LinkedHashSet.
+Convert the LinkedHashSet to an ArrayList to maintain the order of characters.
+Iterate through the ArrayList, appending each character to a StringBuilder.
+Return the string representation of the StringBuilder, which contains the original string with duplicate characters removed
