@@ -1,0 +1,6 @@
+Here's a brief explanation of what each method does:
+
+mul: This method performs matrix multiplication and updates the result matrix (res) accordingly. It uses modular arithmetic to prevent integer overflow.
+mat_exp: This method performs matrix exponentiation. It repeatedly squares the matrix until the exponent becomes zero, effectively reducing the time complexity.
+genFibNum: This method initializes the matrices mat and res with appropriate values and then calculates the Fibonacci number modulo m using matrix exponentiation.
+It's worth noting that this implementation assumes that the given Fibonacci sequence starts with a, b, and c. It calculates the n-th Fibonacci number modulo m.
