@@ -1,0 +1,10 @@
+
+This Java class Solution contains a method countPairs which takes four parameters:
+
+mat1[][]: A 2D integer array representing the first matrix.
+mat2[][]: A 2D integer array representing the second matrix.
+n: An integer representing the size of the matrices (both matrices are assumed to be square matrices of size n x n).
+x: An integer representing the target sum.
+The purpose of the method is to count the pairs of elements, one from each matrix, such that their sum equals the given target x. The method iterates over each element of the first matrix (mat1) and tries to find a matching pair in the second matrix (mat2). It uses nested loops for iteration and binary search for efficiency.
+
+Here's a brief description of the algorithm:
